@@ -3,7 +3,7 @@
 **PAWS** is a full-featured pet adoption and e-commerce platform built with raw PHP, MySQL, and JavaScript.  
 It includes a public-facing user interface for browsing pets and products, and an admin dashboard for managing inventory, orders, and user data.
 
----
+**Live Preview:** [https://paws.graceye.ca](https://paws.graceye.ca/pawsfriend/index.php)
 
 ## 🔧 Tech Stack
 
