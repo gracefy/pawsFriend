@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  background-color: #eee;
+  width: 80vw;
+  padding: 1vw 2vw;
+  height: 6vw;
+}
+
+.account {
+  font-size: 1.4vw;
+  color: #5b9a8b;
+}
+
+.header span,
+.header a {
+  margin-left: 2vw;
+  font-size: 1vw;
+  color: #666;
+}

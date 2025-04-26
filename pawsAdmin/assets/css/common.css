@@ -1,0 +1,155 @@
+/* style reset */
+* {
+  margin: 0;
+  padding: 0;
+  /* css3 box model */
+  box-sizing: border-box;
+  color: #333;
+}
+
+em,
+i {
+  font-style: normal
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  border: 0;
+  vertical-align: middle;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+button:hover,
+a:hover {
+  filter: brightness(120%);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+button,
+input,
+textarea {
+  outline: none;
+  border: 0;
+}
+
+select {
+  margin-left: 1vw;
+  padding: 4px 12px;
+  font-size: 1vw;
+}
+
+select option {
+  font-size: 1.4vw;
+}
+
+textarea {
+  resize: none;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2vw;
+}
+
+
+h4,
+h5 {
+  font-size: 1.6vw;
+  font-weight: 500;
+}
+
+/* main */
+.header {
+  grid-area: header;
+}
+
+.sidebar {
+  grid-area: sidebar;
+}
+
+.main {
+  grid-area: main;
+  padding: 0 2vw;
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+}
+
+.main h3 {
+  margin-bottom: 1vw;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+.body {
+  display: grid;
+  grid-template-areas:
+    "sidebar header header header header"
+    "sidebar main main main main"
+    "sidebar footer footer footer footer";
+  row-gap: 2vw;
+  width: 100vw;
+  height: 100vh;
+}
+
+.footer {
+  align-self: end;
+  background-color: #eee;
+  height: 3vw;
+  line-height: 3vw;
+  text-align: center;
+  color: #5b9a8b;
+}
+
+/* page number */
+.pages {
+  display: flex;
+  justify-content: center;
+  gap: 2vw;
+  margin-top: 1vw;
+}
+
+.pages a {
+  padding: 2px 6px;
+  color: #5b9a8b;
+}
+
+.page-active {
+  background-color: #5b9a8b;
+}
+
+.pages .page-active {
+  color: #fff;
+}
+
+/* order status label */
+.status {
+  display: inline-block;
+  width: 9vw;
+  height: 2.4vw;
+  border-radius: 1.2vw;
+  text-align: center;
+  line-height: 2.4vw;
+  background-color: bisque;
+}
+
+/* error information */
+.error {
+  color: red;
+}

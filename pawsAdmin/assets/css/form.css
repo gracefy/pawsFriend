@@ -1,0 +1,64 @@
+/* form style */
+.form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+input[type=text],
+.form select,
+textarea {
+  display: inline-block;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  padding: 1vw 2vw;
+  margin: 0.6vw 0 2vw;
+  font-size: 1.2vw;
+}
+
+button[type=submit] {
+  width: 100%;
+  background-color: #5a9b8a;
+  color: white;
+  padding: 14px 20px;
+  margin: 40px 0 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+input:read-only {
+  background-color: rgb(236, 236, 187);
+}
+
+.center-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2vw;
+  width: 20vw;
+}
+
+/* date style */
+input[type="datetime-local"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  border-radius: 4px;
+  outline: none;
+}
+
+input[type="datetime-local"]::-webkit-calendar-picker-indicator {
+  background: transparent;
+  color: #333;
+  cursor: pointer;
+}
+
+input[type="datetime-local"]::-webkit-inner-spin-button,
+input[type="datetime-local"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

@@ -1,0 +1,83 @@
+.overview {
+  display: flex;
+  justify-content: space-between;
+  padding: 2vw;
+}
+
+.amount {
+  width: 22%;
+  height: 10vw;
+  border-radius: 10px;
+  color: #fff;
+  padding-top: 2.4vw;
+  text-align: center;
+}
+
+.amount span {
+  color: #fff;
+  display: inline-block;
+  margin-bottom: 1vw;
+}
+
+.amount h5 {
+  color: #fff;
+  font-size: 1.6vw;
+}
+
+.orders {
+  width: 30%;
+  height: 5vw;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  color: #666;
+  text-align: center;
+  padding-top: 1vw;
+}
+
+.orders h5 {
+  font-size: 1.4vw;
+}
+
+.t-order {
+  background: url(../images/t-order.png) no-repeat;
+  background-position: 10% 50%;
+  background-size: 4vw;
+}
+
+.p-order {
+  background: url(../images/p-order.png) no-repeat;
+  background-position: 10% 50%;
+  background-size: 4vw;
+}
+
+.d-order {
+  background: url(../images/d-order.png) no-repeat;
+  background-position: 10% 50%;
+  background-size: 4vw;
+}
+
+/* table */
+.recent-table {
+  margin-top: 6vw;
+}
+
+.order-table {
+  padding: 2vw;
+}
+
+/* background color */
+.green-bgc {
+  background-color: #5b9a8b;
+}
+
+.orange-bgc {
+  background-color: #f9964a;
+}
+
+.blue-bgc {
+  background-color: #3960e6;
+}
+
+.cyan-bgc {
+  background-color: #1b8fb0;
+}
